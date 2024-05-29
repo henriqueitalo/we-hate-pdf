@@ -20,6 +20,6 @@ for i, file in enumerate(doc_aux):
             os.mkdir(output_folder)
         output_path = os.path.join(output_folder, image_name)
         page.save(output_path, 'JPEG')
-        os.remove(os.path.join(input, file))
+    os.remove(os.path.join(input, file))
         
 print('Arquivos Separados!')
